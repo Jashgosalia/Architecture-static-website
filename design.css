@@ -1,0 +1,219 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*CSS for main page for website*/
+.navigation{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 20px;
+    padding: 15px 140px 15px 80px;
+}
+.navigation ul li{
+    display: inline-block;
+    justify-content: space-between;
+}
+.logo{
+    height:40px;
+    width:60px;
+    padding:30px 30px;
+}
+.frontpage{
+    background-image: url("buildingphoto1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 95%;
+    width:100%;
+}
+.frontpage_text1{
+    position: absolute;
+    top: 200px;
+    right: 650px;
+    font-size: 60px;
+    height: 400px;
+    width:600px; 
+}
+.frontpage_text2{
+    position: absolute;
+    top: 350px;
+    right: 300px;
+    font-size: 30px;
+    height: 200px;
+    width:1500px;
+    color: rgb(246, 245, 241);
+}
+.frontpage p{
+    color: cyan;
+    position: absolute;
+    text-align: center;
+}
+/*CSS for projects section of website*/
+.headingofproject h2{
+    color: darkred;
+    font-size:40px;
+    text-align: center;
+}
+.container1{
+    display:flex;
+    background-color:white;
+    width: 1500px;
+    height: 400px;
+    margin: 100px 200px 100px 200px;
+    flex-direction: row;
+    padding:10px 5px 10px 5px ;
+}
+.container1 .box1{
+    flex:1;
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+    flex-direction: row; 
+    background-size: cover
+}
+.container1 .box2{
+    flex:1;
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+    flex-direction: row;
+
+    background-size: cover;
+}
+.container1 .box3{
+    flex:1;
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+    flex-direction: row;
+    background-size: cover
+}
+.container2{
+    display:flex;
+    background-color:white;
+    width: 1500px;
+    height: 400px;
+    flex-direction: row;
+    margin: 200px 200px 100px 200px;
+    padding:10px 5px 10px 5px ;
+}
+.container2 .box4{
+    flex:1;
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+    flex-direction: row;
+    background-size: cover
+}
+.container2 .box5{
+    flex:1;
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+    flex-direction: row;
+    background-size: cover
+}
+.container2 .box6{
+    flex:1;
+    box-sizing: border-box;
+    float: left;
+    margin: 20px;
+    flex-direction: row;
+    background-size: cover
+}
+.container1 p{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(194, 40, 40);
+    background-color: rgb(245, 212, 170);
+}
+.container2 p{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(194, 40, 40);
+    background-color: rgb(245, 212, 170);
+}
+/*CSS for Contact page*/
+.form_box{
+    height:100%;
+    width:45%;
+    background-color: rgb(51, 50, 50);
+    margin-bottom: 500px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 2px 3px 200px 10px;
+    margin-left: 55%;
+}
+.form_box .fname_input, .lname_input, .email_input, .number_input{
+    padding: 10px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-bottom: 1px;
+    width: 500px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: rgb(235, 235, 235);
+    border: 2px solid blanchedalmond;
+}
+.button_input{
+    width: 200px;
+    height: 55px;
+    border-radius: 15px;
+    background-color: yellowgreen;
+    border: 2px solid rgb(79, 228, 10);
+    margin-left: 400px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 30px;
+}
+.form_enquirenow a{
+    text-decoration: none;
+    background-color: yellowgreen;
+    font-size: 25px;
+}
+.form_box .form_main{
+    margin: 30px;
+}
+.message_input{
+    padding: 10px;
+    justify-content: center;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: rgb(235, 235, 235);
+    border: 2px solid blanchedalmond;
+}
+.form_text{
+    color: white;
+    font-size: 22px;
+    width: 150px;
+    height: 35px;
+    margin: 0px;  
+}
+.contact_background{
+    display: inline-block;
+    background-image: url("buildingphoto8.jpg");
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+    height: 95%;
+    width:100%;
+}
+form{
+    display: inline-block;
+}
+.headingofcontact h2{
+    color: darkred;
+    font-size:40px;
+    text-align: center;
+}
+
+
